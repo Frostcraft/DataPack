@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blaze_rod"
+    },
+    "title": "Level 20",
+    "description": "Attain level 20.",
+    "hidden": false,
+    "show_toast": true,
+    "background": "minecraft:textures/block/blue_ice.png",
+    "frame": "goal"
+  },
+  "parent": "frostcraft:general/level_15",
+  "criteria": {
+    "level_15": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

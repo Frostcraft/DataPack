@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "title": "Adventure",
+    "description": "Visit an adventure area.",
+    "hidden": false,
+    "show_toast": true,
+    "background": "minecraft:textures/block/blue_ice.png",
+    "frame": "goal"
+  },
+  "criteria": {
+    "start_adventure": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

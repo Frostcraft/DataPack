@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "title": "Convert Redstone",
+    "description": "Convert redstone into mana.",
+    "hidden": false,
+    "show_toast": true,
+    "background": "minecraft:textures/block/blue_ice.png",
+    "frame": "goal"
+  },
+  "parent": "frostcraft:general/root",
+  "criteria": {
+    "redstone": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
